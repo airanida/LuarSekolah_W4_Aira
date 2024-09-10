@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Lembaga Pelatihan</title>
+</head>
+<body>
+    <header>
+        <!-- Brand -->
+        <div id="logoNavi">
+            <div id="brand">
+                <img id="logo" src="../img/logo.png" alt="Logo" width="100">
+            </div>
+            <div id="pembatas"> </div>
+            <!-- Navigasi -->
+            <nav id="nav">
+                <a href="../index.html">Beranda</a></li>
+                <a href="profile.html">Profil & Kontak</a></li>
+                <a href="program.html">Program Pelatihan</a></li>
+            </nav>
+        </div>
+        <div id="signupButton">
+            <a href="signup.html">
+                Registrasi
+            </a>
+        </div>
+        <a href="account-info.html" id="user-account-nav">
+            <div id="user-icon">
+                <img src="../img/user-icon.png" alt="user-icon">
+            </div>
+            <div id="user-username">
+            </div>
+        </a>
+    </header>  
+
+
+    <!-- Berita dan Artikel -->
+    <section id="news-content-section">
+        <h2 class="section-title">Berita dan Artikel</h2>
+    
+        <article id="full-news-article">
+            <h1 class="article-title">Pengaruh Teknologi AR dalam Proses Pembelajaran Interaktif</h1>
+            <p id="article-content-1" class="article-content">
+                Teknologi Augmented Reality (AR) telah memberikan dampak signifikan dalam proses pembelajaran interaktif. Dengan mengintegrasikan 
+                elemen digital ke dalam dunia nyata, AR menawarkan pengalaman belajar yang lebih imersif dan interaktif. Teknologi ini memungkinkan 
+                siswa untuk berinteraksi dengan materi pembelajaran secara langsung, seperti visualisasi objek 3D dan simulasi situasi nyata, 
+                yang meningkatkan pemahaman dan retensi informasi. AR juga dapat menciptakan lingkungan belajar yang lebih menarik dan 
+                memotivasi, membantu siswa dengan berbagai gaya belajar untuk lebih mudah memahami konsep-konsep kompleks. Dengan penerapan AR, 
+                pembelajaran dapat menjadi lebih adaptif dan sesuai dengan kebutuhan individu, mendukung perkembangan keterampilan dan pengetahuan 
+                secara efektif.
+            </p>
+
+            <button id="btn-read-article" class="article-button" onclick="speakText('article-content-1')">Bacakan Artikel</button>
+            <button id="btn-stop-reading" class="article-button" onclick="stopSpeaking()">Berhenti Membaca</button>
+        </article>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <div class="footer-head">
+            <h1>Nyalakan semangat, tumbuhkan ilmu.</h1>
+          </div>
+          <div class="footer-social">
+            <h2>Hubungi Kami</h2>
+            <a href="https://linkedin.com/in/khairunida-khumaira-90916028a/" target="_blank" class="social-icon linkedin">
+              <img src="../img/linkedin-icon.png" alt="LinkedIn">
+            </a>
+            <a href="https://instagram.com/nidaaira" target="_blank" class="social-icon instagram">
+                <img src="../img/instagram-icon.png" alt="Instagram">
+              </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; Ignite Learns. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
